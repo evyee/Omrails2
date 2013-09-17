@@ -1,13 +1,18 @@
-<div class="center hero-unit">
-		<h1>Oh hi</h1>
-	<p>You found my sample page for
-	<%= link_to "One Month Rails", "http://onemonthrails.com" %>
+	<% if user_signed_in? %>
+	<h1> You're logged in </h1>
+	<% else %>
+		<div class="center hero-unit">
+				<h1>Oh hi</h1>
+			<p>You found my sample page for
+			<%= link_to "One Month Rails", "http://onemonthrails.com" %>
 
-	</p>
-	<p>
-		<%= link_to "Sign Up Now!", "#", class: "btn btn-primary btn-large" %>
-	</p>
-</div>
+			</p>
+			<p>
+				<%= link_to "Sign Up Now!", new_user_registration_path, class: "btn btn-primary btn-large" %>
+			</p>
+		</div>
+
+		<% end %>
 
 
 
