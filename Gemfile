@@ -9,6 +9,7 @@ gem 'jquery-rails'
 gem 'devise', '3.0.0.rc'
 gem 'simple_form'
 gem 'protected_attributes'
+gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
