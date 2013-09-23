@@ -10,6 +10,7 @@ gem 'devise', '3.0.0.rc'
 gem 'simple_form'
 gem 'protected_attributes'
 gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
+gem 'aws-sdk'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
@@ -36,7 +37,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-gem 'bootstrap-sass', '~> 2.3.2.1'
+gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
 
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
