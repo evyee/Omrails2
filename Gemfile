@@ -11,7 +11,7 @@ gem 'simple_form'
 gem 'protected_attributes'
 gem 'masonry-rails'
 gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
-gem 'aws-sdk'
+gem "aws-s3", :require => "aws/s3"
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
