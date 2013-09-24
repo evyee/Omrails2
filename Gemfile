@@ -9,6 +9,7 @@ gem 'jquery-rails'
 gem 'devise', '3.0.0.rc'
 gem 'simple_form'
 gem 'protected_attributes'
+gem 'masonry-rails'
 gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
 gem 'aws-sdk'
 
